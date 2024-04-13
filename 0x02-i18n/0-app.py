@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    '''default route'''
+    '''Default route'''
     return render_template("0-index.html",)
 
 
